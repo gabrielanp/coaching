@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -17,103 +17,94 @@ body {
 .header {
     background: #4682B4;
     color: #fff;
-    padding: 0.5em 0; /* Reduced padding for a slimmer header */
-    position: fixed; /* Keeps the header fixed at the top */
+    padding: 0.5em 0;
+    position: fixed;
+    top: 0;
     width: 100%;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.header .container {
+.header-container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header .logo {
     font-size: 1.5em;
-    margin: 0;
-    text-align: left;
 }
 
 .navigation ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
-    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .navigation ul li {
-    display: inline-block;
+    margin-left: 20px;
 }
 
 .navigation ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 /* Hero Section */
 .hero {
     background: url('IMG-5299.JPG') no-repeat center center/cover;
     color: #fff;
-    height: 100vh; /* Full screen height */
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0 1em;
 }
 
 .hero h2 {
-    font-size: 2.8em; /* Larger font for impact */
-    margin: 0;
-    line-height: 1.2;
+    font-size: 3em;
+    margin-bottom: 0.5em;
 }
 
 .hero p {
-    font-size: 1.2em;
-    margin: 1em 0;
+    font-size: 1.5em;
+    margin-bottom: 1em;
 }
 
 .cta-button {
-    background: #4682B4;
+    background: #ff9800;
     color: #fff;
     padding: 0.8em 2em;
-    text-decoration: none;
     border-radius: 5px;
-    font-size: 1em;
-    display: inline-block;
-    margin-top: 1em;
-    transition: background 0.3s;
-}
-
-.cta-button:hover {
-    background: #315f86; /* Darker shade for hover effect */
+    text-decoration: none;
+    font-size: 1.2em;
 }
 
 /* Sections */
 section {
-    padding: 2em 0;
-}
-
-.about, .services, .testimonials, .contact {
+    padding: 4em 0;
     text-align: center;
 }
 
-/* Services */
-.service-item {
-    margin: 1em 0;
+.about, .coaching, .testimonials, .contact {
+    text-align: center;
 }
 
-.service-item h3 {
-    font-size: 1.5em;
-    color: #4682B4;
+.services {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.service-item {
+    max-width: 300px;
 }
 
 /* Testimonials */
 blockquote {
+    font-size: 1.2em;
     margin: 1em auto;
     font-style: italic;
 }
@@ -122,37 +113,31 @@ blockquote {
 .contact-form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.contact-form label {
-    margin: 0.5em 0;
+    gap: 1em;
+    max-width: 600px;
+    margin: auto;
 }
 
 .contact-form input, .contact-form textarea {
     width: 100%;
-    max-width: 600px;
     padding: 0.5em;
-    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .submit-button {
     background: #4682B4;
     color: #fff;
-    padding: 0.5em 2em;
+    padding: 0.8em;
     border: none;
-    cursor: pointer;
     border-radius: 5px;
-}
-
-.submit-button:hover {
-    background: #315f86; /* Hover effect */
+    font-size: 1em;
 }
 
 /* Footer */
 .footer {
     background: #333;
     color: #fff;
-    text-align: center;
     padding: 1em 0;
+    text-align: center;
 }
