@@ -15,7 +15,7 @@ body {
 
 /* Header */
 .header {
-    background: #4CAF50;
+    background: #4682B4;
     color: #fff;
     padding: 1em 0;
 }
@@ -44,7 +44,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: url('hero-image.jpg') no-repeat center center/cover;
+    background: url('IMG-5299.JPG') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 4em 0;
@@ -61,7 +61,7 @@ body {
 }
 
 .cta-button {
-    background: #ff9800;
+    background: #4682B4;
     color: #fff;
     padding: 0.5em 2em;
     text-decoration: none;
@@ -84,7 +84,7 @@ section {
 
 .service-item h3 {
     font-size: 1.5em;
-    color: #4CAF50;
+    color: #4682B4;
 }
 
 /* Testimonials */
@@ -112,7 +112,7 @@ blockquote {
 }
 
 .submit-button {
-    background: #4CAF50;
+    background: #4682B4;
     color: #fff;
     padding: 0.5em 2em;
     border: none;
