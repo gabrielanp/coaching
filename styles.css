@@ -15,7 +15,7 @@ body {
 
 /* Header */
 .header {
-    background: #4682B4;
+    background: #86b9b0;
     color: #fff;
     padding: 0.5em 0;
     position: fixed;
@@ -74,7 +74,7 @@ body {
 }
 
 .cta-button {
-    background: #ff9800;
+    background:#042630;
     color: #fff;
     padding: 0.8em 2em;
     border-radius: 5px;
@@ -126,7 +126,7 @@ blockquote {
 }
 
 .submit-button {
-    background: #4682B4;
+    background: #042630;
     color: #fff;
     padding: 0.8em;
     border: none;
