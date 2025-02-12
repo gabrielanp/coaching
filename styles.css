@@ -90,20 +90,21 @@ section {
 .about-content {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
-    max-width: 800px;
+    justify-content: flex-start;
+    gap: 40px;
+    max-width: 90%;
     margin: auto;
 }
 
 .about-image img {
     width: 100%;
-    max-width: 300px; /* Adjust size as needed */
+    max-width: 400px; /* Adjust size as needed */
     border-radius: 10px; /* Optional for styling */
+    display: block;
 }
 
 .about-text {
-    flex: 1;
+    flex: 2;
     font-size: 1.2em;
 }
 
@@ -175,7 +176,7 @@ blockquote {
         }
 
     .about-image img {
-        max-width: 200px; /* Smaller image for mobile */
+        max-width: 300px; /* Smaller image for mobile */
     }
     * {
         max-width: 100%;
