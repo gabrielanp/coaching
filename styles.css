@@ -129,30 +129,7 @@ blockquote {
     font-style: italic;
 }
 
-/* Contact Form */
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    max-width: 600px;
-    margin: auto;
-}
 
-.contact-form input, .contact-form textarea {
-    width: 100%;
-    padding: 0.5em;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.submit-button {
-    background: #384435;
-    color: #fff;
-    padding: 0.8em;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
-}
 
 /* Footer */
 .footer {
@@ -181,5 +158,17 @@ blockquote {
     * {
         max-width: 100%;
         box-sizing: border-box;
+    }
+    .contact-box {
+        padding: 2em;
+        max-width: 90%;
+    }
+
+    .contact-box h2 {
+        font-size: 1.8em;
+    }
+
+    .contact-box p {
+        font-size: 1em;
     }
 }
