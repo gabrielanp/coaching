@@ -87,6 +87,25 @@ section {
     padding: 4em 0;
     text-align: center;
 }
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 300px; /* Adjust size as needed */
+    border-radius: 10px; /* Optional for styling */
+}
+
+.about-text {
+    flex: 1;
+    font-size: 1.2em;
+}
 
 .about, .coaching, .testimonials, .contact {
     text-align: center;
@@ -150,7 +169,14 @@ blockquote {
         max-width: 100%;
         overflow: hidden;
     }
+    .about-content {
+            flex-direction: column;
+            text-align: center;
+        }
 
+    .about-image img {
+        max-width: 200px; /* Smaller image for mobile */
+    }
     * {
         max-width: 100%;
         box-sizing: border-box;
