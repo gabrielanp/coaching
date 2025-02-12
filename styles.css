@@ -141,3 +141,18 @@ blockquote {
     padding: 1em 0;
     text-align: center;
 }
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    * {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
