@@ -168,6 +168,17 @@ section {
     padding: 20px;
 }
 
+/* Individual Testimonial */
+.testimonial {
+    width: 100%;
+    flex: 0 0 100%;
+    font-size: 1.2em;
+    font-style: italic;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 5px;
+}
+
 /* Arrows */
 .arrow {
     background: #707750;
