@@ -166,3 +166,23 @@ blockquote {
     padding: 1em 0;
     text-align: center;
 }
+/* Adjust Navigation for Smaller Screens */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column; /* Stack logo and menu vertically */
+        text-align: center;
+    }
+
+    .navigation ul {
+        flex-wrap: wrap; /* Allow menu items to move to a second row if needed */
+        padding: 5px 0;
+    }
+
+    .navigation ul li {
+        margin: 5px 8px; /* Reduce spacing */
+    }
+
+    .navigation ul li a {
+        font-size: 0.9em; /* Reduce font size slightly */
+    }
+}
