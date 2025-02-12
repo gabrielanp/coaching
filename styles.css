@@ -19,7 +19,7 @@ body {
 .header {
     background: #707750;
     color: #fff;
-    padding: 5px 0;
+    padding: 5px ;
     position: fixed;
     top: 0;
     width: 100%;
@@ -29,9 +29,10 @@ body {
 
 .header-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column; /* Stack elements vertically */
     align-items: center;
-    padding: 5px 15%;
+    
+    margin: 0 auto;;
 }
 
 .header .logo {
@@ -46,7 +47,7 @@ body {
 }
 
 .navigation ul li {
-    margin-left: 20px;
+    margin-left: 0 10px;
 }
 
 .navigation ul li a {
