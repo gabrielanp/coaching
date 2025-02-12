@@ -47,19 +47,27 @@
                 <div class="service-item">
                     <h3>Personal Growth</h3>
                     <p>Work towards becoming the best version of yourself.</p>
+                    <button class="appointment-button" onclick="openCalendly()">Schedule Appointment</button>
                 </div>
                 <div class="service-item">
                     <h3>Career Transition</h3>
                     <p>Navigate career challenges with confidence and purpose.</p>
+                    <button class="appointment-button" onclick="openCalendly()">Schedule Appointment</button>
                 </div>
                 <div class="service-item">
                     <h3>Mindset Mastery</h3>
                     <p>Overcome limiting beliefs and unlock your potential.</p>
+                    <button class="appointment-button" onclick="openCalendly()">Schedule Appointment</button>
                 </div>
             </div>
         </div>
     </section>
-
+<!-- Calendly Script -->
+<script>
+function openCalendly() {
+    window.open("https://calendly.com/YOUR-CALENDLY-LINK", "_blank");
+}
+</script>
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials">
         <div class="container">
@@ -70,10 +78,11 @@
     </section>
 
     <!-- Contact Section -->
+    <<!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
             <h2>Get in Touch</h2>
-            <form class="contact-form">
+            <form action="https://formspree.io/f/mpwqjlnl" method="POST" class="contact-form">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required>
                 
