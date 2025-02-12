@@ -10,13 +10,11 @@ body {
 .container {
     width: 100%;
     margin: auto;
-    padding: 20px;
+    padding: 2%;
     text-align: center;
    
 }
-.coaching, .courses, .contact{
-    background-color: #c3cc94;
-}
+
 /* Header */
 .header {
     background: #707750;
