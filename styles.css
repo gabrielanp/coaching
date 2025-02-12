@@ -128,12 +128,73 @@ section {
 .appointment-button:hover {
     background-color: #384435; /* Even darker green */
 }
-/* Testimonials */
-blockquote {
-    font-size: 1.2em;
-    margin: 1em auto;
-    font-style: italic;
+/* Testimonials Section */
+.testimonials {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 2em 0;
 }
+
+.testimonial-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Wrapper for the testimonials */
+.testimonial-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* The sliding testimonials */
+.testimonial-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 400%;
+}
+
+.testimonial-slide blockquote {
+    width: 100%;
+    flex: 0 0 100%;
+    font-size: 1.2em;
+    font-style: italic;
+    padding: 20px;
+}
+
+/* Arrows */
+.arrow {
+    background: #707750;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left-arrow {
+    left: 0;
+}
+
+.right-arrow {
+    right: 0;
+}
+
+/* Hover effect */
+.arrow:hover {
+    background: #555;
+}
+
+
 
 /* Contact Form */
 .contact-form {
@@ -172,6 +233,9 @@ blockquote {
     .header-container {
         flex-direction: column; /* Stack logo and menu vertically */
         text-align: center;
+    }
+    .testimonial-slide blockquote {
+        font-size: 1em;
     }
 
     .navigation ul {
