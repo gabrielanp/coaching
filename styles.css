@@ -15,9 +15,9 @@ body {
 
 /* Header */
 .header {
-    background: #86b9b0;
+    background: #707750;
     color: #fff;
-    padding: 0;
+    padding: 5px 0;
     position: fixed;
     top: 0;
     width: 100%;
@@ -29,6 +29,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 5px 20px;
 }
 
 .header .logo {
@@ -50,11 +51,12 @@ body {
     color: #fff;
     text-decoration: none;
     font-size: 1em;
+    padding: 8px 12px;
 }
 
 /* Hero Section */
 .hero {
-    background: url('compas.jpg') no-repeat center center/cover;
+    background: url('glasses.jpg') no-repeat center center/cover;
     color: #fff;
     height: 100vh;
     display: flex;
@@ -136,7 +138,7 @@ blockquote {
 
 /* Footer */
 .footer {
-    background: #86b9b0;
+    background: #707750;
     color: #fff;
     padding: 1em 0;
     text-align: center;
