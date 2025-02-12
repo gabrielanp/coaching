@@ -139,7 +139,7 @@ section {
 
 .about-image img {
     width: 100%;
-    max-width: 400px; /* Adjust size as needed */
+    max-width: 600px; /* Adjust size as needed */
     border-radius: 10px; /* Optional for styling */
     display: block;
 }
