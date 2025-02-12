@@ -54,7 +54,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: url('compas.JPG') no-repeat center center/cover;
+    background: url('compas.jpg') no-repeat center center/cover;
     color: #fff;
     height: 100vh;
     display: flex;
@@ -136,7 +136,7 @@ blockquote {
 
 /* Footer */
 .footer {
-    background: #333;
+    background: #86b9b0;
     color: #fff;
     padding: 1em 0;
     text-align: center;
