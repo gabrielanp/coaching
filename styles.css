@@ -13,44 +13,6 @@ body {
     margin: auto;
 }
 
-/* Header */
-.header {
-    background: #596a4a;
-    color: #fff;
-    padding: 0.5em 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header .logo {
-    font-size: 1.5em;
-}
-
-.navigation ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.navigation ul li {
-    margin-left: 20px;
-}
-
-.navigation ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1em;
-}
 
 /* Hero Section */
 .hero {
