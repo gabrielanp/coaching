@@ -8,14 +8,14 @@ body {
 }
 
 .container {
-    width: 90%;
-    max-width: 1200px;
+    width: 100%;
+    
     margin: auto;
 }
 
 /* Header */
 .header {
-    background: #86b9b0;
+    background: #596a4a;
     color: #fff;
     padding: 0.5em 0;
     position: fixed;
@@ -54,7 +54,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: url('compas.JPG') no-repeat center center/cover;
+    background: url('glasses.jpg') no-repeat center center/cover;
     color: #fff;
     height: 100vh;
     display: flex;
@@ -74,7 +74,7 @@ body {
 }
 
 .cta-button {
-    background:#042630;
+    background:#384435;
     color: #fff;
     padding: 0.8em 2em;
     border-radius: 5px;
@@ -126,7 +126,7 @@ blockquote {
 }
 
 .submit-button {
-    background: #042630;
+    background: #384435;
     color: #fff;
     padding: 0.8em;
     border: none;
@@ -136,7 +136,7 @@ blockquote {
 
 /* Footer */
 .footer {
-    background: #333;
+    background: #596a4a;
     color: #fff;
     padding: 1em 0;
     text-align: center;
