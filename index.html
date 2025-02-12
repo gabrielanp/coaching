@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabby Petrov | Life Coaching</title>
-    <script src="testimonials.js"></script>
-
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -16,7 +14,7 @@
             <nav class="navigation">
                 <ul>
                     <li><a href="#about">About</a></li>
-                    <li><a href="products.html">Products</a></li>
+                    <li><a href="#coaching">Coaching</a></li>
                     <li><a href="#testimonials">Testimonials</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -29,7 +27,7 @@
         <div class="hero-content">
             <h2>Find Clarity, Confidence, and Growth</h2>
             <p>Life coaching tailored to your unique journey.</p>
-            <button class="appointment-button" onclick="openCalendly()">Start Your Journey</button>
+            <a href="#contact" class="cta-button">Start Your Journey</a>
         </div>
     </section>
 
@@ -41,34 +39,24 @@
         </div>
     </section>
 
-    
 
 <!-- Calendly Script -->
 <script>
 function openCalendly() {
-    window.open("https://calendly.com/gabriela-nicoleta-petrov", "_blank");
+    window.open("https://calendly.com/YOUR-CALENDLY-LINK", "_blank");
 }
 </script>
-      <!-- Testimonials Section -->
-    <section class="testimonials">
-        <h2>What People Say</h2>
-        <div class="testimonial-container">
-            <button class="arrow left-arrow">&#10094;</button> <!-- Left Arrow -->
-            <div class="testimonial-wrapper">
-                <div class="testimonial-slide">
-                    <blockquote class="testimonial">"Amazing service, I loved it!" - Anna</blockquote>
-                    <blockquote class="testimonial">"Great experience, highly recommended!" - John</blockquote>
-                    <blockquote class="testimonial">"Professional and friendly!" - Maria</blockquote>
-                    <blockquote class="testimonial">"I would come back again for sure!" - David</blockquote>
-                </div>
-            </div>
-            <button class="arrow right-arrow">&#10095;</button> <!-- Right Arrow -->
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What My Clients Say</h2>
+            <blockquote>"Gabby's coaching transformed my outlook on life and work. I now feel confident in my decisions."</blockquote>
+            <blockquote>"Working with Gabby has been a life-changing experience. She has a gift for helping you see the bigger picture."</blockquote>
         </div>
     </section>
 
-
     <!-- Contact Section -->
-    <!-- Contact Section -->
+    <<!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
             <h2>Get in Touch</h2>
