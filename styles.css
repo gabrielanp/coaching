@@ -14,7 +14,9 @@ body {
     text-align: center;
    
 }
-
+.coaching, .courses, .contact{
+    background-color: #c3cc94;
+}
 /* Header */
 .header {
     background: #707750;
@@ -106,7 +108,7 @@ section {
 
 /* Service Item Styling */
 .service-item {
-    background: #c3cc94;
+    background: #5a603d;
     color: white;
     padding: 20px;
     border-radius: 12px;
