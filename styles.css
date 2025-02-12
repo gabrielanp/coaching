@@ -17,9 +17,9 @@ body {
 
 /* Header */
 .header {
-    background: #707750;
+    background: #86b9b0;
     color: #fff;
-    padding: 5px ;
+    padding: 0;
     position: fixed;
     top: 0;
     width: 100%;
@@ -29,10 +29,8 @@ body {
 
 .header-container {
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-between;
     align-items: center;
-    
-    margin: 0 auto;;
 }
 
 .header .logo {
@@ -47,16 +45,14 @@ body {
 }
 
 .navigation ul li {
-    margin-left: 0 10px;
+    margin-left: 20px;
 }
 
 .navigation ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1em;
-    
 }
-
 /* Hero Section */
 .hero {
     background: url('glasses.jpg') no-repeat center center/cover;
