@@ -17,41 +17,41 @@ body {
 
 /* Header */
 .header {
-    background: #86b9b0;
+    background: #707750;
     color: #fff;
-    padding: 0;
+  
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px; /* Reduce side padding */
 }
 
-.header .logo {
-    font-size: 1.5em;
+/* Navigation */
+.navigation {
+    max-width: 100%; /* Allow full width */
+    width: auto;
+    overflow: hidden;
 }
 
 .navigation ul {
     display: flex;
-    list-style: none;
-    margin: 0;
+    justify-content: center; /* Center items */
+    flex-wrap: wrap; /* Allows items to wrap if needed */
     padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 .navigation ul li {
-    margin-left: 20px;
-}
-
-.navigation ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1em;
+    margin: 5px 10px; /* Reduce spacing */
+    white-space: nowrap; /* Prevent text wrapping */
 }
 /* Hero Section */
 .hero {
