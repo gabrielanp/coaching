@@ -12,6 +12,7 @@ body {
     margin: auto;
     padding: 20px;
     text-align: center;
+    background: #e2dacd;
 }
 
 /* Header */
@@ -103,7 +104,7 @@ section {
     margin-top: 20px;
 }
 .service-item {
-    background: rgba(56,68,53,255); /* Gray-green with transparency */
+    background: #e2dacd;
     color: white;
     padding: 20px;
     border-radius: 12px;
